@@ -9,16 +9,6 @@
 \_| |_/\__,_|_| |_|\__,_||___/ \___/|_| |_| \_____/\__,_||_.__/|___/
 ```
 
-## REMOVE THIS BLOCK BEFORE PUBLISHING
-
-THIS IS AN EXAMPLE. REPLACE THIS WITH YOUR OWN README.md using the pattern below.
-
-This is customer facing so please make it look professional. Thanks.
-
-This file can be updated and will be copied to the console desktop at startup.
-
-> **NOTE:** this file is public so NEVER include passwords. The official HOL Password is stored in the PASSWORD.txt that is copied to the console at boot.
-
 ## Lab Details
 
 ```plain
@@ -29,45 +19,50 @@ This file can be updated and will be copied to the console desktop at startup.
 
 ###  Primary benefits of your lab
 
-Provide information about the lab here
+This lab utilizes a streamlined implemenation of NSX, SSP, and SSPi APIs to provide a fully functioning lab to be utilized as part of a security workshop led by an instructor.
 
 ### Featured Product(s)
 
-More detail about your lab: Products/Features covered in this lab.
+* VMware vDefend Distirbuted Firewall
+* VMware vDefend Advanced Threat Prevention
+* Vmware vDefend Security Services Platform
 
-* Product 1
-* Product 2
-* Feature 1
-* Feature 2
+This lab will use a large amount of simulated data to provide you as a user a complete view of the functionality of vDefend based on the following 3 usecases:
 
-Additional notes and "interesting" facts about your lab. (pre-release code, simulated data, etc.)
+* Security Journey - A prescriptive 4 stage workflow that helps infrastructure security administrators systematically strengthen their datacenter segmentation towards zero trust deployment using VMware vDefend Distributed Firewall and Security Intelligence.
+* Virtual Patching - Leverage hypervisor-integrated Distributed Intrusion Detection and Protection Service to inspect traffic directly at each workload's virtual NIC, blocking exploit attempts against known vulnerabilities without requiring application code changes or system downtime.
+* Zero Day Threat Defence - Use vDefend Network Traffic Analysis (NTA) to detect behavioral anomalies that signal unknown zero-day attacks, which Network Detection and Response (NDR) then correlates across the network into unified, actionable threat campaigns for rapid mitigation.
 
-## Modules
+## Lab Overview
 
-Please record account names for this lab. All acccounts use the standard Hands-on Labs password.
+This lab will use the following applicaitons:
 
-### === Module 1 ===
+* SSP: 
+⋅⋅⋅⋅* URL: ssp.ans.lab
+⋅⋅⋅⋅* Username: admin
+* SSPi: (SSP Installer)
+⋅⋅⋅⋅* URL: sspi.ans.lab
+⋅⋅⋅⋅* Username: admin
+* NSX: 
+⋅⋅⋅⋅* URL: nsx.ans.lab
+⋅⋅⋅⋅* Username: admin
 
-Credentials for all vCenter Operations Manager Instances:
-User name: admin
 
-For vCenter Server Administration Console:
-User name: root
+### === HOL-2772-01 ===
 
-For the vSphere Client, use:
-User name: administrator@vsphere.local
+This is the security Journey Lab that will utilize the Security Journey CSV file located on the desktop to provide the tagging higherarchy for the lab.
 
-### === Module 2 ===
+### === HOL-2772-02 ===
 
-big long command line that nobody wants to type
+This lab will utilize simulated attack data to demonstrate the capabilities of both the distributed IDPS service and the NTA/NDR services that are part of vDefend
 
 ## Lab Authors
 
 ### Principal
 
-* Principal Name:
+* Frank Snyder
 
 ### Captain(s)
 
-* Captain:
-* Captain:
+* Lynne Dark
+* Al Granville
