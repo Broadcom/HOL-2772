@@ -38,14 +38,14 @@ This lab will use a large amount of simulated data to provide you as a user a co
 This lab will use the following applicaitons:
 
 * SSP: 
-⋅⋅⋅⋅* URL: ssp.ans.lab
-⋅⋅⋅⋅* Username: admin
+  * URL: ssp.ans.lab
+  * Username: admin
 * SSPi: (SSP Installer)
-⋅⋅⋅⋅* URL: sspi.ans.lab
-⋅⋅⋅⋅* Username: admin
+  * URL: sspi.ans.lab
+  * Username: admin
 * NSX: 
-⋅⋅⋅⋅* URL: nsx.ans.lab
-⋅⋅⋅⋅* Username: admin
+  * URL: nsx.ans.lab
+  * Username: admin
 
 
 ### === HOL-2772-01 ===
