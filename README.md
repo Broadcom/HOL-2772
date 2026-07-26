@@ -56,13 +56,22 @@ This is the security Journey Lab that will utilize the Security Journey CSV file
 
 This lab will utilize simulated attack data to demonstrate the capabilities of both the distributed IDPS service and the NTA/NDR services that are part of vDefend
 
-## Lab Authors
+## 2027 Group 4 Team
 
 ### Principal
 
 * Frank Snyder
+* Nick Robbins
 
-### Captain(s)
+### Captains
 
+* Quinton Coehlo 
 * Lynne Dark
+* Josh Newton
+
+### Associate Captains
 * Al Granville
+* Bhavik Metha
+* Britton Johnson
+* Apoorv Malmane
+* Ted Romer
