@@ -16,4 +16,4 @@
 vPodPW=$(</home/holuser/creds.txt) 
 
 #Move the security-journey file from the Downloads folder the the desktop.
-sshpass -p $vPodPW ssh holuser@console 'mv ~/Downloads/security-journey.csv ~/Desktop/security-Journey.csv'
+mv /lmchol/home/holuser/hol/Documents/files/security-journey.csv /lmchol/home/holuser/hol/Desktop
