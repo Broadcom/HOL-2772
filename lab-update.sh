@@ -12,7 +12,8 @@
 . /home/holuser/.bashrc
 # Insert your custom code here:
 
+#Read in the vPod Password
+vPodPW=$(</home/holuser/creds.txt) 
 
-# Example to echo text into file on Console VM. 
-# NOTE: when this script runs, /lmchol is mounted to the "/" of the Console VM
-# echo "Functional Testing!" > /lmchol/home/holuser/Documents/FT.txt
+#Move the security-journey file from the Downloads folder the the desktop.
+sshpass -p $vPodPW ssh holuser@console 'mv ~/Downloads/security-journey.csv ~/Desktop/security-Journey.csv'
